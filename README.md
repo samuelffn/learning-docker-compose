@@ -18,7 +18,7 @@ docker run -d -p 8080:8080 samuelfranca/aprendendo-docker:latest
 docker ps  
 
 ### Testando a aplicação GO
-Abra o navegado, acesse: http://localhost:8080
+Abra o navegador, acesse: http://localhost:8080
 
 
 ## Brincando com o Docker Compose
