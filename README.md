@@ -22,3 +22,14 @@ Abra o navegado, acesse: http://localhost:8080
 
 
 ## Brincando com o Docker Compose
+
+### Executando o nosso docker compose que criamos
+docker-compose up -d
+docker-compose down
+docker ps
+docker stop <docker_id> ou <name> 
+docker start <docker_id> ou <name>
+
+### Testando os serviços que subimos com o docker compose
+Teste o Nginx: http://localhost:8080
+Teste a aplicação GO: http://localhost:8081
